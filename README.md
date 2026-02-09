@@ -2,7 +2,7 @@
 This is a tool based on BIP-39, primarily for converting between mnemonic seed phrases and IPv6 addresses, decimal indices, and binary indices.
 
 This tool only supports 12-word mnemonic phrases.
-By chance I learned that a 12-word mnemonic has 2^128 entropy, which matches the number of IPv6 addresses. Therefore, by adding a salt to the mnemonic and converting it to an IPv6 address, and pointing a domain name you control to that IP, by using a salt value that only we know, we can recover our mnemonic in any network environment.
+By chance I learned that a 12-word mnemonic has 2^128 entropy, which matches the number of IPv6 addresses. Therefore, by adding a salt to the mnemonic and converting it to an IPv6 address, and pointing a domain name you control to that IP, by using a salt value that only you know, you can recover our mnemonic in any network environment.
 
 This tool supports three modes:
 1. Input a mnemonic to generate the corresponding decimal index, binary index, and encrypted IPv6 address.
